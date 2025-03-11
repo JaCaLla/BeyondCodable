@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2956F5052D7F90AA0054B645 /* SWXMLHash in Frameworks */ = {isa = PBXBuildFile; productRef = 2956F5042D7F90AA0054B645 /* SWXMLHash */; };
-		2956F50E2D80683B0054B645 /* Yams in Frameworks */ = {isa = PBXBuildFile; productRef = 2956F50D2D80683B0054B645 /* Yams */; };
+		2956F52B2D80914F0054B645 /* SWXMLHash in Frameworks */ = {isa = PBXBuildFile; productRef = 2956F52A2D80914F0054B645 /* SWXMLHash */; };
+		2956F52E2D80E8750054B645 /* Yams in Frameworks */ = {isa = PBXBuildFile; productRef = 2956F52D2D80E8750054B645 /* Yams */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +28,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2956F50E2D80683B0054B645 /* Yams in Frameworks */,
-				2956F5052D7F90AA0054B645 /* SWXMLHash in Frameworks */,
+				2956F52E2D80E8750054B645 /* Yams in Frameworks */,
+				2956F52B2D80914F0054B645 /* SWXMLHash in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,8 +72,8 @@
 			);
 			name = BeyondCodable;
 			packageProductDependencies = (
-				2956F5042D7F90AA0054B645 /* SWXMLHash */,
-				2956F50D2D80683B0054B645 /* Yams */,
+				2956F52A2D80914F0054B645 /* SWXMLHash */,
+				2956F52D2D80E8750054B645 /* Yams */,
 			);
 			productName = BeyondCodable;
 			productReference = 2956F4EB2D7F4AD00054B645 /* BeyondCodable.app */;
@@ -104,8 +104,8 @@
 			mainGroup = 2956F4E22D7F4AD00054B645;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				2956F5032D7F90AA0054B645 /* XCRemoteSwiftPackageReference "SWXMLHash" */,
-				2956F50C2D80683B0054B645 /* XCRemoteSwiftPackageReference "Yams" */,
+				2956F5292D80914F0054B645 /* XCRemoteSwiftPackageReference "SWXMLHash" */,
+				2956F52C2D80E8750054B645 /* XCRemoteSwiftPackageReference "Yams" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 2956F4EC2D7F4AD00054B645 /* Products */;
@@ -339,7 +339,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		2956F5032D7F90AA0054B645 /* XCRemoteSwiftPackageReference "SWXMLHash" */ = {
+		2956F5292D80914F0054B645 /* XCRemoteSwiftPackageReference "SWXMLHash" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/drmohundro/SWXMLHash";
 			requirement = {
@@ -347,7 +347,7 @@
 				minimumVersion = 8.1.0;
 			};
 		};
-		2956F50C2D80683B0054B645 /* XCRemoteSwiftPackageReference "Yams" */ = {
+		2956F52C2D80E8750054B645 /* XCRemoteSwiftPackageReference "Yams" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/jpsim/Yams";
 			requirement = {
@@ -358,14 +358,14 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		2956F5042D7F90AA0054B645 /* SWXMLHash */ = {
+		2956F52A2D80914F0054B645 /* SWXMLHash */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 2956F5032D7F90AA0054B645 /* XCRemoteSwiftPackageReference "SWXMLHash" */;
+			package = 2956F5292D80914F0054B645 /* XCRemoteSwiftPackageReference "SWXMLHash" */;
 			productName = SWXMLHash;
 		};
-		2956F50D2D80683B0054B645 /* Yams */ = {
+		2956F52D2D80E8750054B645 /* Yams */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 2956F50C2D80683B0054B645 /* XCRemoteSwiftPackageReference "Yams" */;
+			package = 2956F52C2D80E8750054B645 /* XCRemoteSwiftPackageReference "Yams" */;
 			productName = Yams;
 		};
 /* End XCSwiftPackageProductDependency section */

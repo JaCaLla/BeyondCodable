@@ -39,7 +39,7 @@ struct XMLView: View {
             }
             people = fetchedPeople
         } catch {
-            print("Error al decodificar XML: \(error)")
+            print("Error decoding XML: \(error)")
         }
     }
 
