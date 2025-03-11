@@ -3,7 +3,7 @@ This repository contains a sample iOS applicationt hat presents how to parse dif
 
 
 ## Screenshots
-<img src="media/review.jpeg" alt="Texto alternativo" width="300">
+<img src="media/review.gif" alt="Texto alternativo" width="300">
 
 ## Requirements
 
